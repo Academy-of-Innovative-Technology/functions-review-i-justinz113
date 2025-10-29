@@ -5,7 +5,8 @@ function sayHello() {
 }
 
 function showDate() {
-  return "October 28, 2025";
+  const a = new Date();
+  return a.toDateString();
 }
 
 function motivate() {
